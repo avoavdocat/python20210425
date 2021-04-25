@@ -2,12 +2,16 @@
 ## Base64 -
  import base64
  base64.b32base64.b64encode(b"BreakallCTF{happyhackinghighhaaha}")
+ 
 Ans: b'QnJlYWthbGxDVEZ7aGFwcHloYWNraW5naGlnaGhhYWhhfQ==
+
 
  
 ## Base64 -
   base64.b32decode(b"IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===")
+  
 Ans: b'BreakALLCTF{9x485VS7wiitBZXUUhMe}'
+
 
 
 ## Ascii -
@@ -37,11 +41,8 @@ Ans: CTF{yoUaReInth33RdpL4c3}
 
 ## 1~100
 
-15:52 user@user-VirtualBox(10.0.2.15)[~] 
-[XD] % gedit cat.py  
-15:52 user@user-VirtualBox(10.0.2.15)[~] 
-[XD] % python3 cat.py
 cat.py-
+
 from pwn import *
 ip="120.114.62.214"
 port=2403

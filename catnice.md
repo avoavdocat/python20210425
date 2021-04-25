@@ -35,7 +35,25 @@ numbers : 51099 8679 82518 98813 63684 89100 32404 53862 75741 20314 42336 775 6
 answer : 99754
 Ans: CTF{yoUaReInth33RdpL4c3}
 
+1~100
 
-CTF{gOOD4tMatHYOUarE}
+15:52 user@user-VirtualBox(10.0.2.15)[~] 
+[XD] % gedit cat.py  
+15:52 user@user-VirtualBox(10.0.2.15)[~] 
+[XD] % python3 cat.py
+cat.py-
+from pwn import *
+ip="120.114.62.214"
+port=2403
+
+r = remote(ip, port)
+for i in range(1,101):
+	r.recvuntil("wave")
+	r.recvuntil("?")
+	r.sendline(str(i))
+r.interactive()
+
+Ans: CTF{gOOD4tMatHYOUarE}
+
 
 

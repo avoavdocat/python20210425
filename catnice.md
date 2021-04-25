@@ -42,7 +42,7 @@ Ans: CTF{yoUaReInth33RdpL4c3}
 ## 1~100
 
 cat.py-
-
+```python
 from pwn import *
 
 ip="120.114.62.214"
@@ -62,7 +62,7 @@ for i in range(1,101):
 	
 r.interactive()
 
-
+```
 ---Ans: CTF{gOOD4tMatHYOUarE}
 
 

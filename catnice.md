@@ -1,28 +1,28 @@
-4/25
-Base64 -
->>> import base64
->>> base64.b32base64.b64encode(b"BreakallCTF{happyhackinghighhaaha}")
+# 4/25
+## Base64 -
+ import base64
+ base64.b32base64.b64encode(b"BreakallCTF{happyhackinghighhaaha}")
 Ans: b'QnJlYWthbGxDVEZ7aGFwcHloYWNraW5naGlnaGhhYWhhfQ==
 
  
- Base64 -
- >>> base64.b32decode(b"IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===")
+## Base64 -
+  base64.b32decode(b"IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===")
 Ans: b'BreakALLCTF{9x485VS7wiitBZXUUhMe}'
 
 
-Ascii -
+## #Ascii -
 BreakALLCTF{Amv0uDyervPtmVr9SSSK}
 hello world -
 [XD] % nc 120.114.62.214 2405
-===== Welcome to CTF =====
+### ===== Welcome to CTF =====
 You successfully reach this problem
 Congratulation!!!
 Wait for a few second, let me get you the flag
 
-Here you go : CTF{Hel10WorLD123}
+---Ans: Here you go : CTF{Hel10WorLD123}
 
 
-3rd -
+## 3rd -
 [XD] % nc 120.114.62.214 2400
 ===== Welcome to 3rd Game =====
 Can you help me find the 3rd largest number?
@@ -53,7 +53,7 @@ for i in range(1,101):
 	r.sendline(str(i))
 r.interactive()
 
-Ans: CTF{gOOD4tMatHYOUarE}
+---Ans: CTF{gOOD4tMatHYOUarE}
 
 
 

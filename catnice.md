@@ -44,15 +44,24 @@ Ans: CTF{yoUaReInth33RdpL4c3}
 cat.py-
 
 from pwn import *
+
 ip="120.114.62.214"
+
 port=2403
 
 r = remote(ip, port)
+
+
 for i in range(1,101):
+
 	r.recvuntil("wave")
+	
 	r.recvuntil("?")
+	
 	r.sendline(str(i))
+	
 r.interactive()
+
 
 ---Ans: CTF{gOOD4tMatHYOUarE}
 

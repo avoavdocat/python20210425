@@ -29,7 +29,7 @@ Wait for a few second, let me get you the flag
 ## 3rd -
 
 [XD] % nc 120.114.62.214 2400
-
+```
 ===== Welcome to 3rd Game =====
 Can you help me find the 3rd largest number?
 All numbers are unique
@@ -43,7 +43,7 @@ answer : 6
 numbers : 51099 8679 82518 98813 63684 89100 ...  94575
 
 answer : 99754
-
+```
 Ans: CTF{yoUaReInth33RdpL4c3}
 
 
